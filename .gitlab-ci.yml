@@ -4,33 +4,11 @@ services:
   - docker:dind
 
 stages:
-  - test
-  - build
   - deploy
-
-before_script:
-  - echo "test"
-
-test:
-  tags:
-    - dev
-  stage: test
-  script:
-    - echo "Running tests"
-
-build:
-  tags:
-    - dev
-  stage: build
-  script:
-    - echo "Build and store latest imaage to registry tests"
-
-  only:
-    - master
 
 deploy:
   tags:
-    - dev
+    - prod
   stage: deploy
   script:
     - cp -r .env.testing .env
