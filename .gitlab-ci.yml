@@ -11,6 +11,5 @@ deploy:
     - prod
   stage: deploy
   script:
-    - cp -r .env.testing .env
     - docker image prune -f
     - docker-compose -f "docker-compose.testing.yml" up --build -d
