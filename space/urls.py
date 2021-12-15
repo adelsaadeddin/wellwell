@@ -20,5 +20,6 @@ from space import controller
 
 urlpatterns = [
     path('predict/', controller.predict, name="predict"),
+    path('contact/', controller.contact, name="contact"),
     path('', views.index, name='home'),
 ]
