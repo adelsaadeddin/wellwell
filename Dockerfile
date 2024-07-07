@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /code
 COPY . /code/
 COPY requirements.txt /code/
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
 COPY docker/docker-entrypoint.sh /usr/src/entrypoint.sh
 RUN chmod +x /usr/src/entrypoint.sh

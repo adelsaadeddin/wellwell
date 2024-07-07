@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
     'wellwellwell.h4k00r.com',
     'www.wellwellwell.app',
     'wellwellwell.app',
+    'wellwell-cfc.com',
 ]
 
 # Application definition
