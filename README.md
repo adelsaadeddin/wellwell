@@ -38,6 +38,7 @@ Team members:
 - Mazen Hassani (Master in Data Science, [Harbour Space](https://harbour.space), and multiple awards winner in robotics)
 <br>
 
+We are proud to announce that our project, Well Well, was recognized as one of the top teams in the prestigious [2021 Call for Code Global Challenge University Edition](https://developer.ibm.com/blogs/the-global-challenge-university-edition-top-teams/), organized by IBM.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
