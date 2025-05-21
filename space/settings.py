@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
     'www.wellwellwell.app',
     'wellwellwell.app',
     'wellwell-cfc.com',
+    'wellwell-rmco.onrender.com',
 ]
 
 # Application definition
